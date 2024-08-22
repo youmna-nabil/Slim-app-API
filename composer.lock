@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cff50d19ae2442e41741c9d6988cd51c",
+    "content-hash": "29c3578e3060d0a8359379febe8710d3",
     "packages": [
         {
             "name": "fig/http-message-util",
@@ -1285,16 +1285,16 @@
         },
         {
             "name": "jangregor/phpstan-prophecy",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Jan0707/phpstan-prophecy.git",
-                "reference": "2bc7ca9460395690c6bf7332bdfb2f25d5cae8e0"
+                "reference": "5ee56c7db1d58f0578c82a35e3c1befe840e85a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Jan0707/phpstan-prophecy/zipball/2bc7ca9460395690c6bf7332bdfb2f25d5cae8e0",
-                "reference": "2bc7ca9460395690c6bf7332bdfb2f25d5cae8e0",
+                "url": "https://api.github.com/repos/Jan0707/phpstan-prophecy/zipball/5ee56c7db1d58f0578c82a35e3c1befe840e85a9",
+                "reference": "5ee56c7db1d58f0578c82a35e3c1befe840e85a9",
                 "shasum": ""
             },
             "require": {
@@ -1302,8 +1302,8 @@
                 "phpstan/phpstan": "^1.0.0"
             },
             "conflict": {
-                "phpspec/prophecy": "<1.7.0,>=2.0.0",
-                "phpunit/phpunit": "<6.0.0,>=10.0.0"
+                "phpspec/prophecy": "<1.7.0 || >=2.0.0",
+                "phpunit/phpunit": "<6.0.0 || >=12.0.0"
             },
             "require-dev": {
                 "ergebnis/composer-normalize": "^2.1.1",
@@ -1338,15 +1338,9 @@
             "description": "Provides a phpstan/phpstan extension for phpspec/prophecy",
             "support": {
                 "issues": "https://github.com/Jan0707/phpstan-prophecy/issues",
-                "source": "https://github.com/Jan0707/phpstan-prophecy/tree/1.0.0"
+                "source": "https://github.com/Jan0707/phpstan-prophecy/tree/1.0.2"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/localheinz",
-                    "type": "github"
-                }
-            ],
-            "time": "2021-11-08T16:37:47+00:00"
+            "time": "2024-04-03T08:15:54+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1958,16 +1952,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.59",
+            "version": "1.11.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e607609388d3a6d418a50a49f7940e8086798281"
+                "reference": "707c2aed5d8d0075666e673a5e71440c1d01a5a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e607609388d3a6d418a50a49f7940e8086798281",
-                "reference": "e607609388d3a6d418a50a49f7940e8086798281",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/707c2aed5d8d0075666e673a5e71440c1d01a5a3",
+                "reference": "707c2aed5d8d0075666e673a5e71440c1d01a5a3",
                 "shasum": ""
             },
             "require": {
@@ -2010,13 +2004,9 @@
                 {
                     "url": "https://github.com/phpstan",
                     "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
-                    "type": "tidelift"
                 }
             ],
-            "time": "2024-02-20T13:59:13+00:00"
+            "time": "2024-08-19T14:37:29+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
